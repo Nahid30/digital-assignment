@@ -99,11 +99,13 @@ const Collapse = () => {
                     <li>AIR BRUSH MAKEUP</li>
                     <li>EVENING MAKEUP(SMOKEY EYES, ETC)</li>
                 </ul>
-                <div className="font-semibold mt-6">
+                <div className="font-semibold mt-6 text-center">
                 <p>DM on 9999963537 to enroll</p>
                 <p>Email: junejasohni@gmail.com</p>
                 <p>Website: www.sohnijuneja.com</p>
+                <button class="btn btn-outline btn-wide mt-4 ">Rs 97,000 + GST</button>
                 </div>
+                
             </div>
           </div>
         </div>

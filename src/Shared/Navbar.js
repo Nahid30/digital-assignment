@@ -5,6 +5,7 @@ import linkedin from '../images/linkedin.png';
 import instagram from '../images/instagram.png';
 import phone from '../images/phone.png';
 import logo from '../images/sohni logo-02.png';
+import web from '../images/web.png';
 const Navbar = () => {
 
     const menuItems = <>
@@ -27,11 +28,16 @@ const Navbar = () => {
 
                  <div>
                    
-                <span className='flex justify-center mt-2  '>
+                <span className='flex justify-center items-center mt-2  '>
+
+                                <a href="https://sohnijuneja.com/" target=" _blank"><img src={web} className="w-8 mr-4 " alt="" /></a>
+
                                 <a href="https://www.linkedin.com/in/md-nahid-hossain-a8522218a/" target=" _blank"><img src={linkedin} className="w-8" alt="" /></a>
                                 <a href="https://www.facebook.com/mdnahid.shuvo.7330/" target=" _blank"><img src={facebook} className="w-8 mx-4" alt="" /></a>
 
-                                <a href="https://www.instagram.com/md.nahid.shuvo/" target=" _blank"><img src={instagram} className="w-8" alt="" /></a>
+                                <a href="https://www.instagram.com/md.nahid.shuvo/" target=" _blank"><img src={instagram} className="w-8 " alt="" /></a>
+
+                               
                             </span>
                  </div>
                  </div>
