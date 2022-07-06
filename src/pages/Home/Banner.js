@@ -8,10 +8,10 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className="m-10" id="banner">
-        
+
       <div class="text">
         <div>
-          <h1>Sohni Juneja</h1>
+          <h1>SOHNI JUNEJA</h1>
           <p>
             Sohni Juneja, a product of National Institute of Fashion Technology
             Delhi, Where she got her proficiency in her passion for Designing

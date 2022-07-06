@@ -4,6 +4,7 @@ import facebook from '../images/facebook.png';
 import linkedin from '../images/linkedin.png';
 import instagram from '../images/instagram.png';
 import phone from '../images/phone.png';
+import logo from '../images/sohni logo-02.png';
 const Navbar = () => {
 
     const menuItems = <>
@@ -19,10 +20,10 @@ const Navbar = () => {
 
     return (
         <div >
-                 <div className='lg:grid grid-cols-3 '>
+                 <div className='lg:grid grid-cols-3 mt-4 '>
                     <div className='flex justify-center'> <span className='flex text-xl  mt-2'> <img className="w-5 h-8" src={phone}   alt="" /> +91-9999963537</span></div>
 
-                    <div className='flex justify-center'><Link to="/" className=" btn btn-ghost normal-case text-xl"> <span className='text-pink-600  text-4xl '>Sohni Juneja</span></Link></div>
+                    <div className='flex justify-center'><Link to="/" className=" btn btn-ghost normal-case ">  <img width={140} src={logo} alt="" /></Link></div>
 
                  <div>
                    
