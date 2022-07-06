@@ -17,10 +17,11 @@ import { Pagination } from "swiper";
 
 const Testimonial = () => {
   return (
+    
     <div>
       <h1 className="text-4xl text-center my-10">Testimonials</h1>
 
-      <div className="my-20">
+      <div className="my-20 ">
         <Swiper
           pagination={{
             dynamicBullets: true,

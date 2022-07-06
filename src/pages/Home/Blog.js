@@ -67,6 +67,9 @@ const Blog = () => {
           </div>
         </div>
       </div>
+        <div className="flex justify-center mb-10">
+        <button className="btn btn-primary"><a href="https://sohnijuneja.com/blog/">SHOW MORE</a></button>
+        </div>
     </div>
   );
 };
