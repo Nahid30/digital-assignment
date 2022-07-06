@@ -9,9 +9,9 @@ import insta3 from "../../images/insta3.jpg";
 const Instagram = () => {
   return (
     <div className="my-20 ">
-      <div className="flex justify-center items-end mt-10">
-        <img width={80} src={insta} alt="" />
-        <p className="text-2xl mt-6">FOLLOW US ON</p>
+      <div className="flex justify-center ">
+        <img width={60} src={insta} alt="" />
+        <p className="text-2xl mt-4 ml-2">FOLLOW US ON</p>
       </div>
       <div className="flex justify-center ">
         <img width={160} src={instagram} alt="" />
