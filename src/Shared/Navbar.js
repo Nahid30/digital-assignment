@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import facebook from '../images/facebook.png';
 import linkedin from '../images/linkedin.png';
 import instagram from '../images/instagram.png';
@@ -7,6 +7,7 @@ import phone from '../images/phone.png';
 import logo from '../images/sohni logo-02.png';
 import web from '../images/web.png';
 const Navbar = () => {
+    
 
     const menuItems = <>
     <li><NavLink to="/">Home</NavLink> <span>|</span> </li>
@@ -14,7 +15,7 @@ const Navbar = () => {
     <li><NavLink to="/services">Services</NavLink> <span>|</span> </li>
     <li><NavLink to="/media">Media</NavLink> <span>|</span> </li>
     <li><NavLink to="/album">Album</NavLink> <span>|</span> </li>
-    <li><NavLink to="/blog">Blog</NavLink> <span>|</span> </li>
+    <li><NavLink to="blog">Blog</NavLink> <span>|</span> </li>
     <li><NavLink to="/contact">Contact Us</NavLink><span>|</span> </li>
     </>
 
